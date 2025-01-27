@@ -219,6 +219,8 @@ nav ul li a:hover {
     gap: 30px;
     max-width: 900px;
     margin: 0 auto;
+    list-style: none;
+    text-decoration: none;
 }
 
 .image-container {
@@ -241,6 +243,7 @@ details {
     border: 1px solid #f7d1e6;
     margin-bottom: 10px;
 }
+
 
 details summary {
     cursor: pointer;
@@ -269,7 +272,7 @@ details summary .icon {
 details summary .icon svg {
     height: 24px;
     width: 24px;
-    color: #161616;
+    color: #eb5a2f;
 }
 
 details[open] summary .icon {
