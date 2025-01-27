@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: "Outfit", serif;
+    font-weight: 400;
+    background-color: #f4ede0;
+    color: #f4ede0;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #161616;
+  position: relative;
+  padding: 20px;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: #f4ede0;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1em;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  color: #ed79b7;
+}
+
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active">Logo</a>
+  <div id="myLinks">
+    <a href="#map">SIHTPUNTKID</a>
+    <a href="#memories">MEENUTUSED</a>
+    <a href="#gallery">GALERII</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<!-- End smartphone / tablet look -->
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+</body>
+</html>

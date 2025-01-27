@@ -1,3 +1,5 @@
+/* Hamburger menüü mobiilivaade */
+
 /* Hero mobiilivaade */
 @media (max-width: 768px) {
     .hero {
@@ -42,11 +44,12 @@
     }
 
     .text-content h1 {
-        font-size: 2em;
+        font-size: 3em;
+    
     }
 
     .text-content p {
-        font-size: 0.9em;
+        font-size: 1em;
     }
 
     .stamps img {

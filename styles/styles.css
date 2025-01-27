@@ -240,7 +240,6 @@ nav ul li a:hover {
 
 details {
     background-color: #f4ede0;
-    border: 1px solid #f7d1e6;
     margin-bottom: 10px;
 }
 
@@ -255,9 +254,14 @@ details summary {
     transition: all 120ms ease;
 }
 
+details summary:hover {
+    background-color: #f7d1e6;
+}
+
 details[open] summary {
     background-color: #f7d1e6;
     color: #eb5a2f;
+    font-weight: 600;
     margin-bottom: 12px;
 }
 
@@ -268,7 +272,7 @@ details summary .icon {
     justify-content: center;
 }
 
-/* Ensure the icon is visible */
+
 details summary .icon svg {
     height: 24px;
     width: 24px;
@@ -398,11 +402,24 @@ button {
     align-items: center;
     gap: 15px;
     margin-bottom: 20px;
-    
 }
 
 .social-icons i {
     font-size: 25px;
+    color: #f4ede0;
+    transition: color 0.3s;
+}
+
+.social-icons a {
+    text-decoration: none;
+}
+
+.social-icons a:visited i {
+    color: #f4ede0;
+}
+
+.social-icons a:hover i {
+    color: #f7d1e6;
 }
 
 .footer p {
